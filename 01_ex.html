@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+            *{margin:0;padding:0;}
+            div{ border:2px solid #000;}
+            ul{list-style:none;}
+            ul li{ border:5px solid rgb(153, 10, 153);}
+            #dd{border:2px solid #000;}
+            #d2 img{width:25%;padding:10px;}
+            #d2 img+img{padding-left:10px;}
+            #d1,#d2,#d3,#d2 img{float:left;box-sizing: border-box;}
+            #dd:after{
+                content:"";
+                display: block;
+                clear:both;
+            }
+        @media screen and (min-width:992px){
+            #d1{width:20%;}
+            #d2{width:60%;}
+            #d3{width:20%;}
+            #d2 img{padding:10px;}
+            ul li a{font-size:24px;}
+        }
+        @media screen and (min-width:768px) and (max-width:991px){
+            div #d3{display: none;}
+            div #d1{width:30%;}
+            div #d2{width:70%;}
+            div #d2 img{padding:5px;}
+            div ul li{font-size:18px;}
+        }
+        @media screen and (max-width:767px){
+            #d1,#d2,#d3{clear:both;}
+            #d1,#d2{width:100%;}
+            #d3{display:none;}
+            #d2 img{width:50%;}
+        }
+    </style>
+</head>
+<body>
+    <div id="dd">
+        <div id="d1">
+            <ul>
+                <li><a href="#">豆蔻年华</a></li>
+                <li><a href="#">花样青春</a></li>
+                <li><a href="#">而立之年</a></li>
+                <li><a href="#">激情岁月</a></li>
+            </ul>
+        </div>
+        <div id="d2">
+            <img src="img/1.jpg">
+            <img src="img/2.jpg">
+            <img src="img/3.jpg">
+            <img src="img/4.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, esse sequi assumenda, ullam harum pariatur, velit atque magnam cupiditate ut quo quaerat tempore magni aliquam inventore sapiente incidunt reiciendis possimus fugit? Laudantium iusto minima quaerat incidunt aliquid illum error recusandae quo! Sequi illum similique ab magni repellendus neque minima maxime iusto tempora, in consequatur nemo, vel quas autem sint doloribus! Obcaecati reprehenderit sapiente officiis quis, fugit adipisci architecto tempora, magni ad ea id itaque, repellendus quo recusandae excepturi quidem voluptatum incidunt ab! Nesciunt placeat quisquam accusantium excepturi, non inventore repellat eligendi reprehenderit facilis unde necessitatibus optio doloremque saepe aperiam sed perferendis beatae. Tenetur cumque, consequatur iste sint, facilis quibusdam itaque totam quisquam fugiat ullam placeat error praesentium deserunt corporis ad voluptas velit repellat, fuga libero autem. Est rerum voluptatibus architecto consectetur. Labore mollitia quaerat aliquam nulla eum quibusdam, fugiat, sapiente esse, obcaecati aperiam reiciendis sit recusandae accusantium alias deleniti! Hic labore ipsum ea voluptate dolores provident, at nulla iure distinctio incidunt ad nesciunt officiis explicabo repellat molestiae sunt sint, fugiat laudantium architecto amet maiores! Consequatur, perferendis corrupti nam mollitia officiis, impedit quasi consectetur nobis unde molestiae delectus ratione eos omnis optio? Minus, omnis corrupti consequatur deleniti error praesentium voluptate iusto eveniet cum consectetur totam architecto suscipit cupiditate voluptatum accusamus quo! Asperiores, consectetur autem pariatur perspiciatis ullam voluptates aliquam natus tenetur repudiandae quasi voluptate facilis? Error quam omnis esse assumenda exercitationem commodi. In corporis inventore similique doloribus, qui a ex, quaerat neque aut voluptatum molestiae, error maxime deserunt. Id molestias qui praesentium optio! Rerum impedit veniam quaerat enim non iure reiciendis error? Illum exercitationem dignissimos ut velit pariatur tempora, quaerat sit provident accusantium quam ex laborum illo aut fugiat, harum ullam fugit nesciunt ab aliquam, natus beatae! Porro enim voluptatem voluptates blanditiis exercitationem ullam magnam qui reprehenderit voluptas, aspernatur harum assumenda.</p>
+        </div>
+        <div id="d3">
+            <p>右侧的广告：Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugit sed repellendus voluptas eos! Ut laborum repellendus culpa obcaecati nulla, aliquam ipsam optio delectus, quaerat neque sit placeat quasi. Autem, quasi magnam! Nostrum dolores dolorem voluptas possimus culpa cum minima assumenda tempora! Officia vitae culpa esse, soluta ad recusandae impedit quisquam! Corporis, voluptates! Eligendi, eos. Assumenda rem necessitatibus ea corrupti distinctio earum vel adipisci quam, possimus consectetur nam tempore voluptatum reprehenderit ipsam. Perspiciatis laudantium possimus fuga molestiae praesentium aperiam reiciendis animi aliquid recusandae nemo eaque temporibus id vero minima placeat ullam dolorum, necessitatibus itaque esse distinctio quidem! Molestias et, pariatur adipisci temporibus, harum itaque voluptas voluptatum nesciunt corporis sint laudantium repellat facilis magnam odit quas nihil expedita amet voluptate, ducimus reiciendis dignissimos! Sint incidunt distinctio magni libero temporibus quas sequi placeat unde, illo amet aliquid omnis, mollitia a deleniti perspiciatis saepe ut optio corrupti doloremque in! Explicabo reprehenderit repellendus quaerat.</p>
+        </div>
+    </div>
+</body>
+</html>
