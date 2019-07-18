@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        *{margin:0;padding:0;text-align:center;box-sizing: border-box;}
+        #d1,#d2,#d3{width:100%;}
+        #d1{background:#333;}
+        div::after{
+            display: block;
+            content:"";
+            clear: both;
+        }
+        ul{margin-left:5%;}
+        ul li{
+            float:left;
+            margin:20px;
+            list-style: none;
+        }
+        #d2{background:linear-gradient(90deg,#1a0253,#7c415a);}
+        ul li,div h5{color:#bbb}
+        #d2 h1,#d2 p,button{color:#fff;}
+        #d2 h1{padding-top:100px;font-size:72px;}
+        #d2 h5{font-size:20px;margin:20px 0;}
+        #d2 button{
+            background: linear-gradient(270deg,#337ab7,#2f67c2);
+            border:0;border-radius:0.25rem;
+            height:40px;width:230px;font-size:12px;font-weight:bold; 
+        }
+        #d3{display:flex}
+        img{width:25%;}
+        #d2 p{font-size:10px;padding:20px 0 50px 0;}
+        @media screen and (min-width:992px){
+
+        }
+        @media screen and (min-width:768px) and (max-width:991px){
+            #d1 ul{display: flex;justify-content:space-between;margin:0 50px;}
+            #d3{display:block;}
+            img{width:50%;}
+        }
+        @media screen and (max-width:767px){
+            #d1 ul{display: flex;justify-content:space-between;margin:0 50px;}
+            #d3{display:block;}
+            img{width:100%;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="d1">
+            <ul>
+                <li>Bootstrap中文网</li>
+                <li>起步</li>
+                <li>全局CSS样式</li>
+                <li>组件</li>
+                <li>JavaScript插件</li>
+                <li>定制</li>
+            </ul>
+        </div>
+        <div id="d2">
+            <h1>Bootstrap</h1>
+            <h5>简洁、直观、强悍的前端开发框架，让web开发更迅速、简单</h5>
+            <button>Bootsrtap3中文文档(v4.0.0)</button>
+            <p>Bootstrap2中文文档(v3.3.7)</p>
+        </div>
+        <div id="d3">
+            <img src="img/boot-1.png" alt=""><img src="img/boot-2.png" alt=""><img src="img/boot-3.png" alt=""><img src="img/boot-4.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
